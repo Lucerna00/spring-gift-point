@@ -1,4 +1,4 @@
-package gift.wishedProduct.dto;
+package gift.wishedproduct.dto;
 
 import jakarta.validation.constraints.NotNull;
 

@@ -1,9 +1,9 @@
-package gift.orderOption.dto;
+package gift.orderoption.dto;
 
-import gift.orderOption.entity.CashReceipt;
+import gift.orderoption.entity.CashReceipt;
 import gift.member.entity.Member;
 import gift.product.entity.Option;
-import gift.orderOption.entity.OrderOption;
+import gift.orderoption.entity.OrderOption;
 import jakarta.validation.constraints.NotNull;
 import jakarta.validation.constraints.Positive;
 import org.hibernate.validator.constraints.Range;

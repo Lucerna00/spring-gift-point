@@ -12,7 +12,7 @@ import gift.product.exception.InsufficientQuantityException;
 import gift.product.exception.NoOptionsForProductException;
 import gift.product.exception.NoSuchOptionException;
 import gift.product.exception.NoSuchProductException;
-import gift.wishedProduct.exception.NoSuchWishedProductException;
+import gift.wishedproduct.exception.NoSuchWishedProductException;
 import java.util.Map;
 import java.util.stream.Collectors;
 import org.springframework.dao.DataIntegrityViolationException;

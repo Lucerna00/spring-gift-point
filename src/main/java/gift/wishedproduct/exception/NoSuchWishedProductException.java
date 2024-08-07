@@ -1,4 +1,4 @@
-package gift.wishedProduct.exception;
+package gift.wishedproduct.exception;
 
 public class NoSuchWishedProductException extends RuntimeException {
 

@@ -1,7 +1,7 @@
-package gift.wishedProduct.entity;
+package gift.wishedproduct.entity;
 
-import gift.wishedProduct.dto.GetWishedProductResponse;
-import gift.wishedProduct.dto.WishedProductDto;
+import gift.wishedproduct.dto.GetWishedProductResponse;
+import gift.wishedproduct.dto.WishedProductDto;
 import gift.member.entity.Member;
 import gift.product.entity.Product;
 import jakarta.persistence.Entity;

@@ -1,11 +1,11 @@
-package gift.wishedProduct.controller;
+package gift.wishedproduct.controller;
 
 import gift.global.argumentresolver.LoginMember;
 import gift.member.entity.Member;
-import gift.wishedProduct.dto.AddWishedProductRequest;
-import gift.wishedProduct.dto.GetWishedProductResponse;
-import gift.wishedProduct.dto.WishedProductDto;
-import gift.wishedProduct.service.WishedProductService;
+import gift.wishedproduct.dto.AddWishedProductRequest;
+import gift.wishedproduct.dto.GetWishedProductResponse;
+import gift.wishedproduct.dto.WishedProductDto;
+import gift.wishedproduct.service.WishedProductService;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import jakarta.validation.Valid;

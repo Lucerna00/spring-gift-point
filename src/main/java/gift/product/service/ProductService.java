@@ -10,7 +10,7 @@ import gift.product.dto.ProductDto;
 import gift.product.entity.Product;
 import gift.product.exception.NoSuchProductException;
 import gift.product.repository.ProductRepository;
-import gift.wishedProduct.repository.WishedProductRepository;
+import gift.wishedproduct.repository.WishedProductRepository;
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;

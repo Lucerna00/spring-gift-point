@@ -2,7 +2,7 @@ package gift.util;
 
 import gift.member.entity.Member;
 import gift.product.entity.Product;
-import gift.wishedProduct.entity.WishedProduct;
+import gift.wishedproduct.entity.WishedProduct;
 
 public class WishedProductFixture {
 

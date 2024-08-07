@@ -1,11 +1,11 @@
-package gift.orderOption.controller;
+package gift.orderoption.controller;
 
 import gift.global.argumentresolver.LoginMember;
-import gift.orderOption.service.KakaoTalkService;
+import gift.orderoption.service.KakaoTalkService;
 import gift.member.entity.Member;
-import gift.orderOption.dto.OrderOptionRequest;
-import gift.orderOption.dto.OrderOptionResponse;
-import gift.orderOption.service.OrderOptionService;
+import gift.orderoption.dto.OrderOptionRequest;
+import gift.orderoption.dto.OrderOptionResponse;
+import gift.orderoption.service.OrderOptionService;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import jakarta.validation.Valid;

@@ -1,4 +1,4 @@
-package gift.orderOption.dto;
+package gift.orderoption.dto;
 
 import jakarta.validation.constraints.NotNull;
 import java.util.Arrays;

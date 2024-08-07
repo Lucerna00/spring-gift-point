@@ -1,6 +1,6 @@
-package gift.orderOption.repository;
+package gift.orderoption.repository;
 
-import gift.orderOption.entity.OrderOption;
+import gift.orderoption.entity.OrderOption;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface OrderOptionRepository extends JpaRepository<OrderOption, Long> {

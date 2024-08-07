@@ -1,15 +1,15 @@
-package gift.wishedProduct.service;
+package gift.wishedproduct.service;
 
 import gift.member.entity.Member;
 import gift.product.entity.Product;
 import gift.product.exception.NoSuchProductException;
 import gift.product.repository.ProductRepository;
-import gift.wishedProduct.dto.AddWishedProductRequest;
-import gift.wishedProduct.dto.GetWishedProductResponse;
-import gift.wishedProduct.dto.WishedProductDto;
-import gift.wishedProduct.entity.WishedProduct;
-import gift.wishedProduct.exception.NoSuchWishedProductException;
-import gift.wishedProduct.repository.WishedProductRepository;
+import gift.wishedproduct.dto.AddWishedProductRequest;
+import gift.wishedproduct.dto.GetWishedProductResponse;
+import gift.wishedproduct.dto.WishedProductDto;
+import gift.wishedproduct.entity.WishedProduct;
+import gift.wishedproduct.exception.NoSuchWishedProductException;
+import gift.wishedproduct.repository.WishedProductRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;

@@ -1,4 +1,4 @@
-package gift.wishedProduct.dto;
+package gift.wishedproduct.dto;
 
 public record GetWishedProductResponse(
     long productId,

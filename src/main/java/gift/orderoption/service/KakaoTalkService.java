@@ -1,9 +1,9 @@
-package gift.orderOption.service;
+package gift.orderoption.service;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import gift.member.entity.KakaoToken;
-import gift.orderOption.dto.KakaoTalkDto;
+import gift.orderoption.dto.KakaoTalkDto;
 import gift.member.dto.MemberDto;
 import gift.member.exception.InvalidKakaoTalkTemplateException;
 import gift.member.exception.InvalidKakaoTokenException;

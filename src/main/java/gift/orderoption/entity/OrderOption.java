@@ -1,6 +1,6 @@
-package gift.orderOption.entity;
+package gift.orderoption.entity;
 
-import gift.orderOption.dto.OrderOptionResponse;
+import gift.orderoption.dto.OrderOptionResponse;
 import gift.member.entity.Member;
 import gift.product.entity.Option;
 import jakarta.persistence.Column;
