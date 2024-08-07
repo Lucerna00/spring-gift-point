@@ -5,6 +5,8 @@ import gift.member.entity.Member;
 import gift.member.repository.MemberRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Isolation;
+import org.springframework.transaction.annotation.Transactional;
 
 @Service
 public class PointService {
@@ -20,6 +22,7 @@ public class PointService {
        return new PointDto(member.getPoint());
     }
 
+    @Transactional(isolation = Isolation.READ_COMMITTED)
     public PointDto addPoint(Member member, int point) {
         member.addPoint(point);
         memberRepository.save(member);
